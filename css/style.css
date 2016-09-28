@@ -40,8 +40,9 @@ a:hover {
   padding-top: 10px;
   text-align: center;
   padding-right: 50px;
-  float: left;
-  margin-left: 16%;
+  float: right;
+  margin-right: 110px;
+  position: relative;
 }
 
 #dynamic-social {
@@ -123,12 +124,25 @@ footer {
   font-size: 18px;
 }
 
+.footer-title {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-family: "Fjalla One";
+}
+
+.footer-section {
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
 #footer-bottom {
   height: 65px;
   padding-left: 5%;
   padding-top: 1px;
   margin-left: -5.3%;
-  margin-top: 9%;
+  margin-top: 250px;
   color: #FFFFFF;
   font-family: "Homemade Apple";
   font-size: 18px;
@@ -144,15 +158,29 @@ footer {
   margin-top: 20px;
 }
 
-.text-container-small {
+.text-container-small-left {
   border-style: solid;
   border-width: thin;
   border-color: #455A64;
   display: block;
   margin-left: 20%;
-  margin-right: 50%;
+  margin-right: 20px;
+  width: 29.3%;
   margin-top: 20px;
+  float: left;
 }
+
+.text-container-small-right {
+  border-style: solid;
+  border-width: thin;
+  border-color: #455A64;
+  display: block;
+  margin-right: 20%;
+  width: 29.3%;
+  margin-top: 20px;
+  float: left;
+}
+
 
 .resume-item {
   color: #263238;
@@ -197,6 +225,14 @@ footer {
   width: 100%;
 }
 
+#sem-photo {
+  width: 100%;
+}
+
+#pgss-photo {
+  width: 100%;
+}
+
 .button-container {
   margin-left: 20px;
   margin-right: 20px;
@@ -223,6 +259,19 @@ footer {
   color: #263238;
 }
 
+#website-button-small {
+  display: inline-block;
+  width: 92%;
+  margin-right: 20px;
+  height: 40px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #263238;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #263238;
+}
+
 #platform-button {
   display: inline-block;
   width: 47.5%;
@@ -230,4 +279,22 @@ footer {
   background-color: #455A64;
   text-align: center;
   color: #FFFFFF;
+}
+
+#education-container {
+
+}
+
+#education-button {
+
+}
+
+#photo-of-moi {
+  height: 404px;
+  float: right;
+  margin-left: 20px;
+}
+
+#welcome-text {
+  float: none;
 }
