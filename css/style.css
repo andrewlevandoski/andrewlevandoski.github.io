@@ -1,0 +1,233 @@
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+a:hover {
+  color: #B0BEC5;
+}
+
+#header {
+  height: 160px;
+}
+
+#dynamic-header {
+  height: 80px;
+  position: fixed;
+  margin-top: -160px;
+}
+
+.dynamic-tab {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: "Fjalla One";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#dynamic-name-logo {
+  width: 300px;
+  margin-left: 20%;
+  margin-top: 24px;
+  float: left;
+}
+
+#dynamic-tab-container {
+  padding-top: 10px;
+  text-align: center;
+  padding-right: 50px;
+  float: left;
+  margin-left: 16%;
+}
+
+#dynamic-social {
+  color: #FFFFFF;
+  height: 24px;
+  width: 24px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 28px;
+}
+
+hr {
+  background-color:#263238;
+  border-width:0;
+  height:2px;
+  color: #263238;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.media-container {
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.social {
+  color: #FFFFFF;
+  height: 24px;
+  width: 24px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#name-logo {
+  width: 650px;
+  margin: auto;
+  margin-top: 102px;
+  position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+}
+
+#tab-container {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.tab {
+  display: inline-block;
+  color: #263238;
+  font-size: 28px;
+  font-family: "Fjalla One";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.small-tab {
+  display: inline-block;
+  color: #607D8B;
+  font-size: 20px;
+  font-family: "Fjalla One";
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#about {
+  margin-top: 300px;
+}
+
+footer {
+  height: 300px;
+  padding-left: 5%;
+  padding-top: 20px;
+  margin-top: 80px;
+
+  color: #FFFFFF;
+  font-family: "David Libre";
+  font-size: 18px;
+}
+
+#footer-bottom {
+  height: 65px;
+  padding-left: 5%;
+  padding-top: 1px;
+  margin-left: -5.3%;
+  margin-top: 9%;
+  color: #FFFFFF;
+  font-family: "Homemade Apple";
+  font-size: 18px;
+}
+
+.text-container {
+  border-style: solid;
+  border-width: thin;
+  border-color: #455A64;
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+
+.text-container-small {
+  border-style: solid;
+  border-width: thin;
+  border-color: #455A64;
+  display: block;
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-top: 20px;
+}
+
+.resume-item {
+  color: #263238;
+  font-size: 28px;
+  font-family: "Fjalla One";
+  margin-left: 20px;
+  float: left;
+  display: inline-block;
+}
+
+.resume-date {
+  color: #263238;
+  font-size: 20px;
+  font-family: "Fjalla One";
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 387px;
+}
+
+.resume-text {
+  font-family: "David Libre";
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 1px;
+  text-align: justify;
+}
+
+#ocular-date {
+  margin-left: 233px;
+}
+
+#pathology-slide {
+  width: 100%;
+}
+
+#ocular-slide {
+  width: 100%;
+}
+
+#pgh {
+  width: 100%;
+}
+
+.button-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.button-text {
+  font-family: "Fjalla One";
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+#website-button {
+  display: inline-block;
+  float: left;
+  width: 47.5%;
+  height: 40px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #263238;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #263238;
+}
+
+#platform-button {
+  display: inline-block;
+  width: 47.5%;
+  height: 40px;
+  background-color: #455A64;
+  text-align: center;
+  color: #FFFFFF;
+}
