@@ -92,11 +92,14 @@ jQuery(document).ready(function($){
     $("#education-container").hide();
     $("#extracurricular-container").show();
 
-    $('#experience-button').css("color", "607D8B");
+    $('#experience-button').css("color", "#607D8B");
     $('#education-button').css("color", "#607D8B");
     $('#extracurricular-button').css("color", "#B0BEC5");
   });
 
+  // Photo Stream Handling
+
+  // Form Handling
   $("#submit-message").hide();
   $("#error-message").hide();
   $("#error-text-1").hide();
