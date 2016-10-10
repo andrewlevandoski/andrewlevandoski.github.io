@@ -32,35 +32,77 @@ jQuery(document).ready(function($){
   //Art Page Handling
   $("#2015-art-wrapper").hide();
   $("#2014-art-wrapper").hide();
+  $("#2013-art-wrapper").hide();
+  $("#2012-art-wrapper").hide();
 
   $("#2016-art").click(function() {
     $("#2016-art-wrapper").show();
     $("#2015-art-wrapper").hide();
     $("#2014-art-wrapper").hide();
+    $("#2013-art-wrapper").hide();
+    $("#2012-art-wrapper").hide();
 
     $('#2016-art').css("color", "#B0BEC5");
     $('#2015-art').css("color", "#607D8B");
     $('#2014-art').css("color", "#607D8B");
+    $('#2013-art').css("color", "#607D8B");
+    $('#2012-art').css("color", "#607D8B");
   });
 
   $("#2015-art").click(function() {
     $("#2016-art-wrapper").hide();
     $("#2015-art-wrapper").show();
     $("#2014-art-wrapper").hide();
+    $("#2013-art-wrapper").hide();
+    $("#2012-art-wrapper").hide();
 
     $('#2016-art').css("color", "#607D8B");
     $('#2015-art').css("color", "#B0BEC5");
     $('#2014-art').css("color", "#607D8B");
+    $('#2013-art').css("color", "#607D8B");
+    $('#2012-art').css("color", "#607D8B");
   });
 
   $("#2014-art").click(function() {
     $("#2016-art-wrapper").hide();
     $("#2015-art-wrapper").hide();
     $("#2014-art-wrapper").show();
+    $("#2013-art-wrapper").hide();
+    $("#2012-art-wrapper").hide();
 
     $('#2016-art').css("color", "#607D8B");
     $('#2015-art').css("color", "#607D8B");
     $('#2014-art').css("color", "#B0BEC5");
+    $('#2013-art').css("color", "#607D8B");
+    $('#2012-art').css("color", "#607D8B");
+  });
+
+  $("#2013-art").click(function() {
+    $("#2016-art-wrapper").hide();
+    $("#2015-art-wrapper").hide();
+    $("#2014-art-wrapper").hide();
+    $("#2013-art-wrapper").show();
+    $("#2012-art-wrapper").hide();
+
+    $('#2016-art').css("color", "#607D8B");
+    $('#2015-art').css("color", "#607D8B");
+    $('#2014-art').css("color", "#607D8B");
+    $('#2013-art').css("color", "#B0BEC5");
+    $('#2012-art').css("color", "#607D8B");
+  });
+
+  $("#2012-art").click(function() {
+    $("#2016-art-wrapper").hide();
+    $("#2015-art-wrapper").hide();
+    $("#2014-art-wrapper").hide();
+    $("#2013-art-wrapper").hide();
+    $("#2012-art-wrapper").show();
+
+    $('#2016-art').css("color", "#607D8B");
+    $('#2015-art').css("color", "#607D8B");
+    $('#2014-art').css("color", "#607D8B");
+    $('#2013-art').css("color", "#607D8B");
+    $('#2012-art').css("color", "#B0BEC5");
   });
 
   //Resume Page Handling
