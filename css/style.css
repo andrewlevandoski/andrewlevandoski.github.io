@@ -25,8 +25,7 @@ a:hover {
   color: #FFFFFF;
   font-size: 20px;
   font-family: "Fjalla One";
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
 }
 
 #dynamic-name-logo {
@@ -39,9 +38,8 @@ a:hover {
 #dynamic-tab-container {
   padding-top: 10px;
   text-align: center;
-  padding-right: 50px;
   float: right;
-  margin-right: 110px;
+  margin-right: 20%;
   position: relative;
 }
 
@@ -114,7 +112,7 @@ hr {
 }
 
 footer {
-  height: 300px;
+  height: 350px;
   padding-left: 5%;
   padding-top: 20px;
   margin-top: 80px;
@@ -130,11 +128,25 @@ footer {
   font-family: "Fjalla One";
 }
 
-.footer-section {
+.footer-section-left {
   width: 30%;
   float: left;
-  margin-right: 40px;
+  margin-left: 16%;
   margin-bottom: 20px;
+}
+
+.footer-section-right {
+  width: 30%;
+  float: right;
+  margin-right: 16%;
+  margin-bottom: 20px;
+}
+
+.photo-stream-container {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 
 #footer-bottom {
@@ -142,10 +154,21 @@ footer {
   padding-left: 5%;
   padding-top: 1px;
   margin-left: -5.3%;
-  margin-top: 250px;
+  margin-top: 300px;
   color: #FFFFFF;
   font-family: "Homemade Apple";
   font-size: 18px;
+}
+
+.art-container {
+  border-style: solid;
+  border-width: thin;
+  border-color: #455A64;
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  padding-bottom: 67px;
 }
 
 .text-container {
@@ -233,6 +256,24 @@ footer {
   width: 100%;
 }
 
+#cycling-pic {
+  width: 100%;
+}
+
+.art-pic {
+  width: 100%;
+}
+
+.medium-text {
+  color: #263238;
+  font-size: 20px;
+  font-family: "Fjalla One";
+  margin-top: 20px;
+  margin-right: 20px;
+
+  float: right;
+}
+
 .button-container {
   margin-left: 20px;
   margin-right: 20px;
@@ -281,14 +322,6 @@ footer {
   color: #FFFFFF;
 }
 
-#education-container {
-
-}
-
-#education-button {
-
-}
-
 #photo-of-moi {
   height: 404px;
   float: right;
@@ -297,4 +330,95 @@ footer {
 
 #welcome-text {
   float: none;
+}
+
+#contact-title {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size:32px;
+  font-family: "Fjalla One";
+}
+
+.contact-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: "David Libre";
+  font-size: 18px;
+}
+
+.title-container {
+  width: 50%;
+  margin: 20px 25% 0 25%;
+  background-color: #263238;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.form-container {
+  width: 50%;
+  margin: 20px 25% 0 25%;
+  border-color: #263238;
+  border-style: solid;
+  border-width: thin;
+}
+
+.form-item-container {
+  margin-right: 20px;
+  padding: 20px 0 0 20px;
+}
+
+.form-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: "David Libre";
+  font-size: 12px;
+}
+
+#name {
+  margin-right: 42px;
+}
+
+#email {
+  margin-right: 43px;
+}
+
+#message {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.etext {
+  float: none;
+  margin: 20px;
+  text-align: center;
+  color: #C62828;
+}
+
+#submit-message {
+  margin-top: 100px;
+}
+
+#submit-text {
+  color: #263238;
+  font-size: 24px;
+  margin: 40px 0 40px 0;
+  text-align: center;
+}
+
+#submit-text-literal {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: "Fjalla One";
+  margin-top: 30px;
+}
+
+.submit-button {
+  height: 100px;
+  width: 50%;
+  margin: 20px 25% 0 25%;
+  background-color: #263238;
+  text-align: center;
 }
