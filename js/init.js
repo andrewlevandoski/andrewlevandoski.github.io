@@ -29,6 +29,26 @@ jQuery(document).ready(function($){
   });
 });
 
+  // Projects Page Handling
+  $(".skills-container").hide();
+
+  $("#skills-button").click(function() {
+    $(".skills-container").show();
+    $(".projects-container").hide();
+
+    $('#skills-button').css("color", "#B0BEC5");
+    $('#projects-button').css("color", "#607D8B");
+  });
+
+  $("#projects-button").click(function() {
+    $(".skills-container").hide();
+    $(".projects-container").show();
+
+    $("#skills-button").css("color", "#607D8B");
+    $("#projects-button").css("color", "#B0BEC5");
+  });
+
+
   //Art Page Handling
   $("#2015-art-wrapper").hide();
   $("#2014-art-wrapper").hide();

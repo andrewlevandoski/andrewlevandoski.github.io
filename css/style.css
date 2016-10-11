@@ -105,6 +105,7 @@ hr {
   font-family: "Fjalla One";
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 3px;
 }
 
 #about {
@@ -144,6 +145,10 @@ footer {
 
 #insta-widget {
   margin-top: 10px;
+  height: 200px;
+  width: 84%;
+  border: none;
+  overflow: hidden;
 }
 
 .photo-stream-container {
@@ -267,6 +272,61 @@ footer {
   text-align: justify;
 }
 
+.skills-double-container {
+  display: block;
+  height: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+
+.skills-double-container-space {
+  display: block;
+  height: 500px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+
+.skills-container-left {
+  border-style: solid;
+  border-width: thin;
+  border-color: #455A64;
+  width: 49%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.skills-container-right {
+  border-style: solid;
+  border-width: thin;
+  border-color: #455A64;
+  width: 49%;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.skills-item {
+  color: #263238;
+  font-size: 28px;
+  font-family: "Fjalla One";
+  margin-left: 20px;
+  display: inline-block;
+  margin-bottom: -20px;
+}
+
+.skills-text {
+  font-family: "David Libre";
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+#PGSS-text {
+  float: none;
+}
+
 #ocular-date {
   margin-left: 233px;
 }
@@ -276,6 +336,10 @@ footer {
 }
 
 #ocular-slide {
+  width: 100%;
+}
+
+.banner-photo {
   width: 100%;
 }
 
@@ -326,6 +390,18 @@ footer {
   display: inline-block;
   float: left;
   width: 47.5%;
+  height: 40px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #263238;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #263238;
+}
+
+#pitt-website-button {
+  display: inline-block;
+  width: 95%;
   height: 40px;
   border-style: solid;
   border-width: thin;
@@ -434,6 +510,7 @@ footer {
 
 #submit-message {
   margin-top: 50px;
+  margin-bottom: 300px;
 }
 
 #submit-text {
