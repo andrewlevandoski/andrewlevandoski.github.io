@@ -104,7 +104,7 @@ hr {
 }
 
 footer {
-  height: 350px;
+  height: 200px;
   padding-left: 5%;
   padding-top: 20px;
   margin-top: 80px;
@@ -178,7 +178,7 @@ footer {
   height: 65px;
   padding-left: 5%;
   padding-top: 1px;
-  margin: 300px 0 0 -5.3%;
+  margin: 160px 0 0 -5.3%;
   color: #FFFFFF;
   font-family: "Homemade Apple";
   font-size: 18px;
@@ -273,8 +273,18 @@ footer {
 
 .skills-double-container-space {
   display: block;
-  height: 500px;
+  height: 300px;
   margin: 20px 20% 0 20%;
+}
+
+.skills-inner-container {
+  margin: 20px 20% 0 20%;
+
+  border-style: solid;
+  border-width: thin;
+  border-color: #455A64;
+  float: left;
+  margin-bottom: 20px;
 }
 
 .skills-container-left {
