@@ -149,6 +149,12 @@ footer {
   margin: 0 0 -6px -5px;
 }
 
+.insta-back {
+  width: 25.2%;
+  margin: 0 0 -6px -5px;
+  background-color: black;
+}
+
 #schools-double {
   margin-bottom: 200px;
 }
@@ -168,7 +174,7 @@ footer {
   border-width: thin;
   border-color: #455A64;
   display: block;
-  margin: 20px 20% 0 20%;
+  margin: 20px 20% 0 20px;
   padding-bottom: 67px;
 }
 
@@ -457,6 +463,7 @@ footer {
   width: 100%;
   font-family: "David Libre";
   font-size: 12px;
+  font-style: none;
 }
 
 #name {
@@ -478,6 +485,7 @@ footer {
   margin: 20px;
   text-align: center;
   color: #C62828;
+  font-style: none;
 }
 
 #submit-message {
