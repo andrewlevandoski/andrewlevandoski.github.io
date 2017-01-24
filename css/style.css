@@ -515,3 +515,34 @@ footer {
   background-color: #263238;
   text-align: center;
 }
+
+.week-container {
+  padding-left: 20%;
+}
+
+.week-title {
+  color: #263238;
+  font-size: 28px;
+  font-family: "Fjalla One";
+}
+
+.slides-title {
+  color: #607D8B;
+  font-size: 20px;
+  font-family: "Fjalla One";
+  margin-left: 40px;
+}
+
+.slides-title:hover {
+  color: #B0BEC5;
+}
+
+#temp-message {
+  font-family: "Fjalla One";
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  color: #607D8B;
+  margin-left: 20%;
+}
