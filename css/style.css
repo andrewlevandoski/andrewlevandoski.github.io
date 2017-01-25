@@ -546,3 +546,18 @@ footer {
   color: #607D8B;
   margin-left: 20%;
 }
+
+.teaching-info {
+  color: #607D8B;
+  font-size: 20px;
+  font-family: "Fjalla One";
+  margin-left: 40px;
+}
+
+.teaching-info-indent {
+  color: #607D8B;
+  font-size: 20px;
+  font-family: "Fjalla One";
+  margin-left: 40px;
+  margin-left: 145px;
+}
