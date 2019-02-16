@@ -2947,6 +2947,11 @@ input, select, textarea {
 				height: 30vw;
 			}
 
+			.gallery a.square img {
+				height: 30vw;
+				width: 30vw;
+			}
+
 		.gallery .modal {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3089,6 +3094,11 @@ input, select, textarea {
 				height: 25rem;
 			}
 
+			.gallery a.square img {
+				height: 25rem;
+				width: 25rem;
+			}
+
 			.gallery .modal .inner img {
 				max-width: 100vw;
 			}
@@ -3119,6 +3129,11 @@ input, select, textarea {
 						height: 30rem;
 					}
 
+					.gallery a.square img {
+						height: 30rem;
+						width: 30rem;
+					}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3134,6 +3149,11 @@ input, select, textarea {
 
 			.gallery a.portrait img {
 				height: 14rem;
+			}
+
+			.gallery a.square img {
+				height: 12rem;
+				width: 12rem;
 			}
 
 		}
